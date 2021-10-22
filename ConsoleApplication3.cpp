@@ -10,7 +10,7 @@ int main()
 
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-
+	
 	/*int y, b;
 	cout << "Impur number\n";
 	cin >> y;
@@ -19,16 +19,12 @@ int main()
 	//cout << (b % 2 != 1) << endl;
 	((b % 2 == 0)||(y>=360)) ? (cout << "Parne") : (cout << "Neparne");
 	*/
-	int a, b;
 
-	cout << "¬вед≥ть перше число\n";
-	cin >> a;
-
-	cout << "¬вед≥ть друге число\n";
-	cin >> b;
-
-	((a % 2 == 0) && (b % 2 == 0))/* || ((a % 2 != 0) && (b % 2 != 0)))*/ ? (cout << "ќбидва числа парн≥") : (cout << "„исла не парн≥");
-
-
+	int a = 1000;
+	while (a > -7) {
+		cout << a << "-7" << endl;
+		a -= 7;
+		
+	}
 }
 
